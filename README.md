@@ -18,5 +18,5 @@ This is a simple weather app built using HTML, CSS, and JavaScript. It utilizes 
 
 ## Live Demo
 
-Live URL(Put your live URL here).
+Live URL(https://weather-app-gamma-ten-12.vercel.app/).
 
