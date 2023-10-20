@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script
+      src="https://kit.fontawesome.com/7ccc2b6943.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <input
+          type="text"
+          id="location_text"
+          placeholder="Enter City Name"
+        />
+        <button type="submit">
+          <!-- <img src="/images/search.png" alt="search-icon" /> -->
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <p class="error">Invalid Location</p>
+
+      <main>
+        <div class="weather_img">
+          <img src="/images/clouds.png" alt="clouds" />
+        </div>
+        <span class="temp"></span>
+        <span class="location_name"></span>
+      </main>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <div class="details">
+            <img src="/images/humidity.png" alt="humidity_symbol" />
+            <span class="percentage"></span>
+          </div>
+        </div>
+
+        <div class="windspeed">
+          <div class="details">
+            <img src="/images/wind.png" alt="wind_symbol" />
+            <span class="speed"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
