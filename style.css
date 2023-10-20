@@ -6,17 +6,21 @@
 
 body {
  /*  min-height: 100vh; */
-  background-color: black;
   padding: 2rem;
   font-family: sans-serif;
+  background: #8faac7;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .container {
-  border-radius: 1rem;
-  background: linear-gradient(135deg, #2d8efd 0%, #22c1c3 100%);
+  border-radius: 50px;
+background: #8faac7;
+box-shadow:  20px 20px 60px #7a91a9,
+             -20px -20px 60px #a4c4e5;
+  /* border-radius: 1rem;
+  background: linear-gradient(135deg, #2d8efd 0%, #22c1c3 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
